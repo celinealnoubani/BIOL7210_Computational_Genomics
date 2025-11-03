@@ -1,0 +1,177 @@
+Parameters of tool "GeMoMa pipeline" (GeMoMaPipeline, version: 1.9):
+t - target genome (Target genome file (FASTA), type = fasta,fa,fas,fna,fasta.gz,fa.gz,fas.gz,fna.gz)	= /home/hice1/sfang86/Documents/B2_Final_gff_16/data/contigs/B1180975_S01_L001_contigs.fa
+	The following parameter(s) can be used multiple times:
+	s - species (data for reference species, range={own, pre-extracted}, default = own)	= own
+	    Parameters for selection "own":
+	    	i - ID (ID to distinguish the different reference species, OPTIONAL)	= 1
+	    	a - annotation (Reference annotation file (GFF or GTF), which contains gene models annotated in the reference genome, type = gff,gff3,gtf,gff.gz,gff3.gz,gtf.gz)	= /home/hice1/sfang86/Documents/B2_Final_gff_16/data/reference/GCF_000006845.1_ASM684v1_genomic.gff
+	    	g - genome (Reference genome file (FASTA), type = fasta,fa,fas,fna,fasta.gz,fa.gz,fas.gz,fna.gz)	= /home/hice1/sfang86/Documents/B2_Final_gff_16/data/reference/GCF_000006845.1_ASM684v1_genomic.fna
+	    	w - weight (the weight can be used to prioritize predictions from different input files; each prediction will get an additional attribute sumWeight that can be used in the filter, valid range = [0.0, 1000.0], default = 1.0, OPTIONAL)	= 1.0
+	    	ai - annotation info (annotation information of the reference, tab-delimted file containing at least the columns transcriptName, GO and .*defline, type = tabular, OPTIONAL)	= null
+	    Parameters for selection "pre-extracted":
+	    	i - ID (ID to distinguish the different reference species, OPTIONAL)	= null
+	    	c - cds parts (The query CDS parts file (protein FASTA), i.e., the CDS parts that have been searched in the target genome using for instance BLAST or mmseqs, type = fasta,fa,fas,fna)	= null
+	    	a - assignment (The assignment file, which combines CDS parts to proteins, type = tabular, OPTIONAL)	= null
+	    	w - weight (the weight can be used to prioritize predictions from different input files; each prediction will get an additional attribute sumWeight that can be used in the filter, valid range = [0.0, 1000.0], default = 1.0, OPTIONAL)	= 1.0
+	    	ai - annotation info (annotation information of the reference, tab-delimited file containing at least the columns transcriptName, GO and .*defline, type = tabular, OPTIONAL)	= null
+	The following parameter(s) can be used zero or multiple times:
+	ID - ID (ID to distinguish the different external annotations of the target organism, OPTIONAL)	= null
+	e - external annotation (External annotation file (GFF,GTF) of the target organism, which contains gene models from an external source (e.g., ab initio gene prediction) and will be integrated in the module GAF, type = gff,gff3,gtf)	= null
+	weight - weight (the weight can be used to prioritize predictions from different input files in the module GAF; each prediction will get an additional attribute sumWeight that can be used in the filter, valid range = [0.0, 1000.0], default = 1.0, OPTIONAL)	= 1.0
+	ae - annotation evidence (run AnnotationEvidence on this external annotation, default = true)	= true
+selected - selected (The path to list file, which allows to make only a predictions for the contained transcript ids. The first column should contain transcript IDs as given in the annotation. Remaining columns can be used to determine a target region that should be overlapped by the prediction, if columns 2 to 5 contain chromosome, strand, start and end of region, type = tabular,txt, OPTIONAL)	= null
+gc - genetic code (optional user-specified genetic code, type = tabular, OPTIONAL)	= null
+tblastn - tblastn (if *true* tblastn is used as search algorithm, otherwise mmseqs is used. Tblastn and mmseqs need to be installed to use the corresponding option, default = false)	= false
+tag - tag (A user-specified tag for transcript predictions in the third column of the returned gff. It might be beneficial to set this to a specific value for some genome browsers., default = mRNA)	= mRNA
+r - RNA-seq evidence (data for RNA-seq evidence, range={NO, MAPPED, EXTRACTED}, default = NO)	= NO
+    No parameters for selection "NO"
+    Parameters for selection "MAPPED":
+    	ERE.s - Stranded (Defines whether the reads are stranded. In case of FR_FIRST_STRAND, the first read of a read pair or the only read in case of single-end data is assumed to be located on forward strand of the cDNA, i.e., reverse to the mRNA orientation. If you are using Illumina TruSeq you should use FR_FIRST_STRAND., range={FR_UNSTRANDED, FR_FIRST_STRAND, FR_SECOND_STRAND}, default = FR_UNSTRANDED)	= FR_UNSTRANDED
+    		The following parameter(s) can be used multiple times:
+    		ERE.m - mapped reads file (BAM/SAM files containing the mapped reads, type = bam,sam)	= null
+    	ERE.v - ValidationStringency (Defines how strict to be when reading a SAM or BAM, beyond bare minimum validation., range={STRICT, LENIENT, SILENT}, default = LENIENT)	= LENIENT
+    	ERE.u - use secondary alignments (allows to filter flags in the SAM or BAM, default = true)	= true
+    	ERE.c - coverage (allows to output the coverage, default = true)	= true
+    	ERE.mmq - minimum mapping quality (reads with a mapping quality that is lower than this value will be ignored, valid range = [0, 255], default = 40)	= 40
+    	ERE.mc - minimum context (only introns that have evidence of at least one split read with a minimal M (=(mis)match) stretch in the cigar string larger than or equal to this value will be used, valid range = [1, 1000000], default = 1)	= 1
+    	ERE.maximumcoverage - maximum coverage (optional parameter to reduce the size of coverage output files, coverage higher than this value will be reported as this value, valid range = [1, 10000], OPTIONAL)	= null
+    	ERE.f - filter by intron mismatches (filter reads by the number of mismatches around splits, range={NO, YES}, default = NO)	= NO
+    	        No parameters for selection "NO"
+    	        Parameters for selection "YES":
+    	        	ERE.r - region around introns (test region of this size around introns/splits for mismatches to the genome, valid range = [0, 100], default = 10)	= 10
+    	        	ERE.n - number of mismatches (number of mismatches allowed in regions around introns/splits, valid range = [0, 100], default = 3)	= 3
+    	ERE.e - evidence long splits (require introns to have at least this number of times the supporting reads as their length deviates from the mean split length, valid range = [0.0, 100.0], default = 0.0)	= 0.0
+    	ERE.mil - minimum intron length (introns shorter than the minimum length are discarded and considered as contiguous, valid range = [0, 1000], default = 0)	= 0
+    	ERE.repositioning - repositioning (due to limitations in BAM/SAM format huge chromosomes need to be split before mapping. This parameter allows to undo the split mapping to real chromosomes and coordinates. The repositioning file has 3 columns: split_chr_name, original_chr_name, offset_in_original_chr, type = tabular, OPTIONAL)	= null
+    Parameters for selection "EXTRACTED":
+    		The following parameter(s) can be used multiple times:
+    		introns - introns (Introns (GFF), which might be obtained from RNA-seq, type = gff,gff3)	= null
+    		The following parameter(s) can be used zero or multiple times:
+    		coverage - coverage (experimental coverage (RNA-seq), range={UNSTRANDED, STRANDED}, default = UNSTRANDED)	= UNSTRANDED
+    		           Parameters for selection "UNSTRANDED":
+    		           	coverage_unstranded - coverage_unstranded (The coverage file contains the unstranded coverage of the genome per interval. Intervals with coverage 0 (zero) can be left out., type = bedgraph)	= null
+    		           Parameters for selection "STRANDED":
+    		           	coverage_forward - coverage_forward (The coverage file contains the forward coverage of the genome per interval. Intervals with coverage 0 (zero) can be left out., type = bedgraph)	= null
+    		           	coverage_reverse - coverage_reverse (The coverage file contains the reverse coverage of the genome per interval. Intervals with coverage 0 (zero) can be left out., type = bedgraph)	= null
+d - denoise (removing questionable introns that have been extracted by ERE, range={DENOISE, RAW}, default = DENOISE)	= DENOISE
+    Parameters for selection "DENOISE":
+    	DenoiseIntrons.m - maximum intron length (The maximum length of an intron, default = 15000)	= 15000
+    	DenoiseIntrons.me - minimum expression (The threshold for removing introns, valid range = [0.0, 1.0], default = 0.01)	= 0.01
+    	DenoiseIntrons.c - context (The context upstream a donor and donwstream an acceptor site that is used to determine the expression of the region, valid range = [0, 100], default = 10)	= 10
+    No parameters for selection "RAW"
+
+Extractor parameters
+Extractor.u - upcase IDs (whether the IDs in the GFF should be upcased, default = false)	= false
+Extractor.r - repair (if a transcript annotation can not be parsed, the program will try to infer the phase of the CDS parts to repair the annotation, default = false)	= false
+Extractor.a - Ambiguity (This parameter defines how to deal with ambiguities in the DNA. There are 3 options: EXCEPTION, which will remove the corresponding transcript, AMBIGUOUS, which will use an X for the corresponding amino acid, and RANDOM, which will randomly select an amnio acid from the list of possibilities., range={EXCEPTION, AMBIGUOUS, RANDOM}, default = AMBIGUOUS)	= AMBIGUOUS
+Extractor.d - discard pre-mature stop (if *true* transcripts with pre-mature stop codon are discarded as they often indicate misannotation, default = true)	= true
+Extractor.s - stop-codon excluded from CDS (A flag that states whether the reference annotation contains the stop codon in the CDS annotation or not, default = false)	= false
+Extractor.f - full-length (A flag which allows for choosing between only full-length and all (i.e., full-length and partial) transcripts, default = true)	= true
+
+
+GeMoMa parameters
+GeMoMa.r - reads (if introns are given by a GFF, only use those which have at least this number of supporting split reads, valid range = [1, 2147483647], default = 1)	= 1
+GeMoMa.s - splice (if no intron is given by RNA-seq, compute candidate splice sites or not, default = true)	= true
+GeMoMa.sm - substitution matrix (optional user-specified substitution matrix, type = tabular, OPTIONAL)	= null
+GeMoMa.g - gap opening (The gap opening cost in the alignment, default = 11)	= 11
+GeMoMa.ge - gap extension (The gap extension cost in the alignment, default = 1)	= 1
+GeMoMa.m - maximum intron length (The maximum length of an intron, default = 15000)	= 15000
+GeMoMa.sil - static intron length (A flag which allows to switch between static intron length, which can be specified by the user and is identical for all genes, and dynamic intron length, which is based on the gene-specific maximum intron length in the reference organism plus the user given maximum intron length, default = true)	= true
+GeMoMa.i - intron-loss-gain-penalty (The penalty used for intron loss and gain, default = 25)	= 25
+GeMoMa.rf - reduction factor (Factor for reducing the allowed intron length when searching for missing marginal exons, valid range = [1, 100], default = 10)	= 10
+GeMoMa.e - e-value (The e-value for filtering blast results, default = 100.0)	= 100.0
+GeMoMa.c - contig threshold (The threshold for evaluating contigs, valid range = [0.0, 1.0], default = 0.4)	= 0.4
+GeMoMa.h - hit threshold (The threshold for adding additional hits, valid range = [0.0, 1.0], default = 0.9)	= 0.9
+GeMoMa.o - output (critierium to determine the number of predictions per reference transcript, range={STATIC, DYNAMIC}, default = STATIC)	= STATIC
+           Parameters for selection "STATIC":
+           	GeMoMa.p - predictions (The (maximal) number of predictions per transcript, default = 10)	= 10
+           Parameters for selection "DYNAMIC":
+           	GeMoMa.f - factor (a prediction is used if: score >= factor*Math.max(0,bestScore), valid range = [0.0, 1.0], default = 0.8)	= 0.8
+GeMoMa.a - avoid stop (A flag which allows to avoid (additional) pre-mature stop codons in a transcript, default = true)	= true
+GeMoMa.approx - approx (whether an approximation is used to compute the score for intron gain, default = true)	= true
+GeMoMa.pa - protein alignment (whether a protein alignment between the prediction and the reference transcript should be computed. If so two additional attributes (iAA, pAA) will be added to predictions in the gff output. These might be used in GAF. However, since some transcripts are very long this can increase the needed runtime and memory (RAM)., default = true)	= true
+GeMoMa.v - verbose (A flag which allows to output a wealth of additional information per transcript, default = false)	= false
+GeMoMa.t - timeout (The (maximal) number of seconds to be used for the predictions of one transcript, if exceeded GeMoMa does not output a prediction for this transcript., valid range = [0, 604800], default = 3600)	= 3600
+GeMoMa.ru - replace unknown (Replace unknown amino acid symbols by X, default = false)	= false
+GeMoMa.Score - Score (A flag which allows to do nothing, re-score or re-align the search results, range={Trust, ReScore, ReAlign}, default = ReAlign)	= ReAlign
+
+
+GAF parameters
+GAF.d - default attributes (Comma-separated list of attributes that is set to NaN if they are not given in the annotation file. This allows to use these attributes for sorting or filter criteria. It is especially meaningful if the gene annotation files were received fom different software packages (e.g., GeMoMa, Braker, ...) having different attributes., default = tie,tde,tae,iAA,pAA,score,lpm,maxGap,bestScore,maxScore,raa,rce)	= tie,tde,tae,iAA,pAA,score,lpm,maxGap,bestScore,maxScore,raa,rce
+GAF.k - kmeans (whether kmeans should be performed for each input file and clusters with large mean distance to the origin will be discarded, range={NO, YES}, default = NO)	= NO
+        No parameters for selection "NO"
+        Parameters for selection "YES":
+        	GAF.m - minimal number of predictions (only gene sets with at least this number of predictions will be used for clustering, valid range = [0, 100000000], default = 1000)	= 1000
+        	GAF.c - cluster (the number of clusters to be used for kmeans, valid range = [2, 100], default = 2)	= 2
+        	GAF.g - good cluster (the number of good clusters, good clusters are those with small mean, all members of a good cluster are further used, valid range = [1, 99], default = 1)	= 1
+        	GAF.t - trend (whether a local component should be used for the cluster attribute (might be helpful for regions with different conservation (e.g. introgressions in chromosomes)), range={GLOBAL, LOCAL}, default = GLOBAL)	= GLOBAL
+        	        No parameters for selection "GLOBAL"
+        	        Parameters for selection "LOCAL":
+        	        	GAF.margin - margin (the number of bp upstream and downstream of a predictions used to identify neighboring predictions for the statistics, valid range = [0, 100000000], default = 1000000)	= 1000000
+        	        	GAF.q - quantile (the quantile used for the local trend, valid range = [0.0, 1.0], default = 0.2)	= 0.2
+GAF.f - filter (A filter can be applied to transcript predictions to receive only reasonable predictions. The filter is applied to the GFF attributes. The default filter decides based on the completeness of the prediction (start=='M' and stop=='*') and the relative score (score/aa>=0.75) whether a prediction is used or not. In addition, predictions without score (isNaN(score)) will be used as external annotations do not have the attribute score. Different criteria can be combined using 'and' and 'or'. A more sophisticated filter could be applied for instance using the completeness, the relative score, the evidence as well as statistics based on RNA-seq: start=='M' and stop=='*' and score/aa>=0.75 and (evidence>1 or tpc==1.0), default = start=='M' and stop=='*' and (isNaN(score) or score/aa>=0.75), OPTIONAL)	= start=='M' and stop=='*' and (isNaN(score) or score/aa>=0.75)
+GAF.s - sorting (comma-separated list that defines the way predictions are sorted within a cluster, default = sumWeight,score,aa)	= sumWeight,score,aa
+GAF.l - length difference (maximal percentage of length difference between the representative transcript and an alternative transcript, alternative transcripts with a higher percentage are discarded, valid range = [0.0, 10000.0], OPTIONAL)	= null
+GAF.a - alternative transcript filter (If a prediction is suggested as an alternative transcript, this additional filter will be applied. The filter works syntactically like the 'filter' parameter and allows you to keep the number of alternative transcripts small based on meaningful criteria. Reasonable filter could be based on RNA-seq data (tie==1) or on sumWeight (sumWeight>1). A more sophisticated filter could be applied combining several criteria: tie==1 or sumWeight>1, default = tie==1 or sumWeight>1, OPTIONAL)	= tie==1 or sumWeight>1
+GAF.cbf - common border filter (the filter on the common borders of transcripts, the lower the more transcripts will be checked as alternative splice isoforms, valid range = [0.0, 1.0], default = 0.75)	= 0.75
+GAF.mnotpg - maximal number of transcripts per gene (the maximal number of allowed transcript predictions per gene, valid range = [1, 2147483647], default = 2147483647)	= 2147483647
+GAF.aat - add alternative transcripts (a switch to decide whether the IDs of alternative transcripts that have the same CDS should be listed for each prediction, default = false)	= false
+GAF.tf - transfer features (if true, additional features like UTRs will be transfered from the input to the output. Only features of the representatives will be transfered. The UTRs of identical CDS predictions listed in "alternative" will not be transfered or combined, default = false)	= false
+
+
+AnnotationFinalizer parameters
+AnnotationFinalizer.t - transfer features (if true other features than gene, &lt;tag&gt; (default: mRNA), and CDS of the input will be written in the output, default = false)	= false
+AnnotationFinalizer.u - UTR (allows to predict UTRs using RNA-seq data, range={NO, YES}, default = NO)	= NO
+                        No parameters for selection "NO"
+                        Parameters for selection "YES":
+                        	AnnotationFinalizer.a - additional source suffix (a suffix for source values of UTR features, default = )	= 
+AnnotationFinalizer.r - rename (allows to generate generic gene and transcripts names (cf. parameter &quot;name attribute&quot;), range={COMPOSED, SIMPLE, NO}, default = COMPOSED)	= NO
+                        Parameters for selection "COMPOSED":
+                        	AnnotationFinalizer.p - prefix (the prefix of the generic name)	= null
+                        	AnnotationFinalizer.i - infix (the infix of the generic name, default = G)	= G
+                        	AnnotationFinalizer.s - suffix (the suffix of the generic name, default = 0)	= 0
+                        	AnnotationFinalizer.d - digits (the number of informative digits, valid range = [4, 10], default = 5)	= 5
+                        	AnnotationFinalizer.c - contig search pattern (search string, i.e., a regular expression for search-and-replace parts of the contig/scaffold/chromosome names, the modified string is used as infix for the gene name, default = )	= 
+                        	AnnotationFinalizer.crp - contig replace pattern (replace string, i.e., a regular expression for search-and-replace parts of the contig/scaffold/chromosome names, the modified string is used as infix for the gene name, default = )	= 
+                        Parameters for selection "SIMPLE":
+                        	AnnotationFinalizer.p - prefix (the prefix of the generic name)	= null
+                        	AnnotationFinalizer.d - digits (the number of informative digits, valid range = [4, 10], default = 5)	= 5
+                        No parameters for selection "NO"
+AnnotationFinalizer.n - name attribute (if true the new name is added as new attribute &quot;Name&quot;, otherwise &quot;Parent&quot; and &quot;ID&quot; values are modified accordingly, default = true)	= true
+
+sc - synteny check (run SyntenyChecker if possible, default = true)	= true
+p - predicted proteins (If *true*, returns the predicted proteins of the target organism as fastA file, default = true)	= true
+pc - predicted CDSs (If *true*, returns the predicted CDSs of the target organism as fastA file, default = false)	= false
+pgr - predicted genomic regions (If *true*, returns the genomic regions of predicted gene models of the target organism as fastA file, default = false)	= false
+o - output individual predictions (If *true*, returns the predictions for each reference species, default = false)	= true
+debug - debug (If *false* removes all temporary files even if the jobs exits unexpected, default = true)	= true
+restart - restart (can be used to restart the latest GeMoMaPipeline run, which was finished without results, with very similar parameters, e.g., after an exception was thrown (cf. parameter debug), default = false)	= false
+b - BLAST_PATH (allows to set a path to the blast binaries if not set in the environment, default = , OPTIONAL)	= 
+m - MMSEQS_PATH (allows to set a path to the blast binaries if not set in the environment, default = , OPTIONAL)	= 
+outdir - The output directory, defaults to the current working directory (.)	= /home/hice1/sfang86/Documents/B2_Final_gff_16/results/gemoma/B1180975_S01_L001
+threads - The number of threads used for the tool, defaults to 1	= 4
+[mmseqs]: 17.b804f
+Warning: Nashorn engine is planned to be removed from a future JDK release
+	Command being timed: "GeMoMa GeMoMaPipeline threads=4 outdir=/home/hice1/sfang86/Documents/B2_Final_gff_16/results/gemoma/B1180975_S01_L001 GeMoMa.Score=ReAlign AnnotationFinalizer.r=NO o=true t=/home/hice1/sfang86/Documents/B2_Final_gff_16/data/contigs/B1180975_S01_L001_contigs.fa i=1 a=/home/hice1/sfang86/Documents/B2_Final_gff_16/data/reference/GCF_000006845.1_ASM684v1_genomic.gff g=/home/hice1/sfang86/Documents/B2_Final_gff_16/data/reference/GCF_000006845.1_ASM684v1_genomic.fna"
+	User time (seconds): 134.01
+	System time (seconds): 1.97
+	Percent of CPU this job got: 387%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2798028
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 487
+	Minor (reclaiming a frame) page faults: 180803
+	Voluntary context switches: 41304
+	Involuntary context switches: 1009
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 248440
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

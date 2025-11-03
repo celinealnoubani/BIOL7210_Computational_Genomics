@@ -1,0 +1,29 @@
+[1;32mFunctional annotation of hits...[0m
+[1;32mDecorating gff file /home/hice1/sfang86/Documents/prodigal_eggnog//results/prodigal/B1182034_S01_L001/B1182034_S01_L001_Prodigal.gff...[0m
+500 3.3642821311950684 148.62 q/s (% mem usage: 4.70, % mem avail: 95.30)
+1000 4.866334676742554 205.49 q/s (% mem usage: 4.70, % mem avail: 95.30)
+1500 8.122499227523804 184.67 q/s (% mem usage: 4.70, % mem avail: 95.30)
+1951 8.16621732711792 238.91 q/s (% mem usage: 4.60, % mem avail: 95.38)
+	Command being timed: "emapper.py -i /home/hice1/sfang86/Documents/prodigal_eggnog//results/prodigal/B1182034_S01_L001/B1182034_S01_L001_predicted_proteins_clean.faa --output B1182034_S01_L001 --output_dir /home/hice1/sfang86/Documents/prodigal_eggnog//results/eggnog/B1182034_S01_L001 --data_dir /home/hice1/sfang86/scratch/eggnog_db --cpu 16 --tax_scope bacteria --go_evidence all --decorate_gff /home/hice1/sfang86/Documents/prodigal_eggnog//results/prodigal/B1182034_S01_L001/B1182034_S01_L001_Prodigal.gff --override"
+	User time (seconds): 1430.13
+	System time (seconds): 34.03
+	Percent of CPU this job got: 1174%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:04.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3379804
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 216
+	Minor (reclaiming a frame) page faults: 371928
+	Voluntary context switches: 2094354
+	Involuntary context switches: 56220
+	Swaps: 0
+	File system inputs: 119144
+	File system outputs: 262088
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

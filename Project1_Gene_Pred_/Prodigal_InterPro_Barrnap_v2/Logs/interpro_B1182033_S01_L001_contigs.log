@@ -1,0 +1,94 @@
+12/03/2025 04:01:07:909 Welcome to InterProScan-5.55-88.0
+12/03/2025 04:01:07:910 Running InterProScan v5 in STANDALONE mode... on Linux
+12/03/2025 04:01:12:720 RunID: atl1-1-01-005-2-1.pace.gatech.edu_20250312_040112497_arwx
+12/03/2025 04:01:20:629 Loading file /home/hice1/xyuan99/xyuan99/biol7210/github/B2/Final_results/Prodigal_InterPro_Barrnap_v2/Prodigal/B1182033_S01_L001_contigs_clean.faa
+12/03/2025 04:01:20:630 Running the following analyses:
+[CDD-3.18,Pfam-34.0,PRINTS-42.0,SMART-7.1,SUPERFAMILY-1.75,TIGRFAM-15.0]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+2025-03-12 04:01:22,938 [Thread-7] [uk.ac.ebi.interpro.scan.business.sequence.BerkeleyPrecalculatedProteinLookup:748] WARN - 
+
+The version of InterProScan you are using is 5.55-88.0
+The version of the lookup service you are using is 5.73-104.0
+As the data in these versions is not the same, you cannot use this match lookup service.
+InterProScan will now run locally
+If you would like to use the match lookup service, you have the following options:
+i) Download the newest version of InterProScan5 from our FTP site by following the instructions on:
+   https://www.ebi.ac.uk/interpro/interproscan.html
+ii) Download the match lookup service for your version of InterProScan from our FTP site and install it locally.
+    You will then need to edit the following property in your configuration file to point to your local installation:
+    precalculated.match.lookup.service.url=
+
+In the meantime, the analysis will continue to run locally.
+
+
+2025-03-12 04:01:22,940 [Thread-9] [uk.ac.ebi.interpro.scan.business.sequence.BerkeleyPrecalculatedProteinLookup:748] WARN - 
+
+The version of InterProScan you are using is 5.55-88.0
+The version of the lookup service you are using is 5.73-104.0
+As the data in these versions is not the same, you cannot use this match lookup service.
+InterProScan will now run locally
+If you would like to use the match lookup service, you have the following options:
+i) Download the newest version of InterProScan5 from our FTP site by following the instructions on:
+   https://www.ebi.ac.uk/interpro/interproscan.html
+ii) Download the match lookup service for your version of InterProScan from our FTP site and install it locally.
+    You will then need to edit the following property in your configuration file to point to your local installation:
+    precalculated.match.lookup.service.url=
+
+In the meantime, the analysis will continue to run locally.
+
+
+2025-03-12 04:01:22,938 [Thread-10] [uk.ac.ebi.interpro.scan.business.sequence.BerkeleyPrecalculatedProteinLookup:748] WARN - 
+
+The version of InterProScan you are using is 5.55-88.0
+The version of the lookup service you are using is 5.73-104.0
+As the data in these versions is not the same, you cannot use this match lookup service.
+InterProScan will now run locally
+If you would like to use the match lookup service, you have the following options:
+i) Download the newest version of InterProScan5 from our FTP site by following the instructions on:
+   https://www.ebi.ac.uk/interpro/interproscan.html
+ii) Download the match lookup service for your version of InterProScan from our FTP site and install it locally.
+    You will then need to edit the following property in your configuration file to point to your local installation:
+    precalculated.match.lookup.service.url=
+
+In the meantime, the analysis will continue to run locally.
+
+
+2025-03-12 04:01:22,938 [Thread-6] [uk.ac.ebi.interpro.scan.business.sequence.BerkeleyPrecalculatedProteinLookup:748] WARN - 
+
+The version of InterProScan you are using is 5.55-88.0
+The version of the lookup service you are using is 5.73-104.0
+As the data in these versions is not the same, you cannot use this match lookup service.
+InterProScan will now run locally
+If you would like to use the match lookup service, you have the following options:
+i) Download the newest version of InterProScan5 from our FTP site by following the instructions on:
+   https://www.ebi.ac.uk/interpro/interproscan.html
+ii) Download the match lookup service for your version of InterProScan from our FTP site and install it locally.
+    You will then need to edit the following property in your configuration file to point to your local installation:
+    precalculated.match.lookup.service.url=
+
+In the meantime, the analysis will continue to run locally.
+
+
+2025-03-12 04:01:22,938 [Thread-8] [uk.ac.ebi.interpro.scan.business.sequence.BerkeleyPrecalculatedProteinLookup:748] WARN - 
+
+The version of InterProScan you are using is 5.55-88.0
+The version of the lookup service you are using is 5.73-104.0
+As the data in these versions is not the same, you cannot use this match lookup service.
+InterProScan will now run locally
+If you would like to use the match lookup service, you have the following options:
+i) Download the newest version of InterProScan5 from our FTP site by following the instructions on:
+   https://www.ebi.ac.uk/interpro/interproscan.html
+ii) Download the match lookup service for your version of InterProScan from our FTP site and install it locally.
+    You will then need to edit the following property in your configuration file to point to your local installation:
+    precalculated.match.lookup.service.url=
+
+In the meantime, the analysis will continue to run locally.
+
+
+12/03/2025 04:01:25:745 87% completed
+12/03/2025 04:02:07:239 90% completed
+12/03/2025 04:02:25:303 100% done:  InterProScan analyses completed 
+
+2025-03-12 04:02:25,807 [main] [uk.ac.ebi.interpro.scan.jms.main.Run:1883] WARN - deleteWorkingDirectoryOnCompletion : false

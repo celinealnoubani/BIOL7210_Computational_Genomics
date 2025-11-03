@@ -1,0 +1,129 @@
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]         
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.     
+-------------------------------------
+Request:  Metagenomic, Phase:  Training
+Initializing training files...done!
+-------------------------------------
+Request:  Metagenomic, Phase:  Gene Finding
+Finding genes in sequence #1 (208052 bp)...done!
+Finding genes in sequence #2 (107144 bp)...done!
+Finding genes in sequence #3 (93218 bp)...done!
+Finding genes in sequence #4 (89118 bp)...done!
+Finding genes in sequence #5 (88081 bp)...done!
+Finding genes in sequence #6 (76171 bp)...done!
+Finding genes in sequence #7 (75380 bp)...done!
+Finding genes in sequence #8 (72431 bp)...done!
+Finding genes in sequence #9 (67328 bp)...done!
+Finding genes in sequence #10 (64393 bp)...done!
+Finding genes in sequence #11 (60832 bp)...done!
+Finding genes in sequence #12 (59573 bp)...done!
+Finding genes in sequence #13 (55669 bp)...done!
+Finding genes in sequence #14 (55223 bp)...done!
+Finding genes in sequence #15 (48873 bp)...done!
+Finding genes in sequence #16 (46712 bp)...done!
+Finding genes in sequence #17 (43998 bp)...done!
+Finding genes in sequence #18 (43378 bp)...done!
+Finding genes in sequence #19 (41182 bp)...done!
+Finding genes in sequence #20 (40683 bp)...done!
+Finding genes in sequence #21 (40621 bp)...done!
+Finding genes in sequence #22 (35455 bp)...done!
+Finding genes in sequence #23 (31325 bp)...done!
+Finding genes in sequence #24 (28167 bp)...done!
+Finding genes in sequence #25 (27102 bp)...done!
+Finding genes in sequence #26 (25692 bp)...done!
+Finding genes in sequence #27 (25379 bp)...done!
+Finding genes in sequence #28 (23922 bp)...done!
+Finding genes in sequence #29 (23332 bp)...done!
+Finding genes in sequence #30 (23104 bp)...done!
+Finding genes in sequence #31 (22797 bp)...done!
+Finding genes in sequence #32 (22155 bp)...done!
+Finding genes in sequence #33 (20969 bp)...done!
+Finding genes in sequence #34 (20701 bp)...done!
+Finding genes in sequence #35 (20409 bp)...done!
+Finding genes in sequence #36 (18382 bp)...done!
+Finding genes in sequence #37 (18184 bp)...done!
+Finding genes in sequence #38 (17919 bp)...done!
+Finding genes in sequence #39 (16898 bp)...done!
+Finding genes in sequence #40 (16312 bp)...done!
+Finding genes in sequence #41 (14604 bp)...done!
+Finding genes in sequence #42 (13706 bp)...done!
+Finding genes in sequence #43 (11949 bp)...done!
+Finding genes in sequence #44 (11512 bp)...done!
+Finding genes in sequence #45 (11387 bp)...done!
+Finding genes in sequence #46 (10787 bp)...done!
+Finding genes in sequence #47 (9479 bp)...done!
+Finding genes in sequence #48 (9181 bp)...done!
+Finding genes in sequence #49 (8799 bp)...done!
+Finding genes in sequence #50 (8624 bp)...done!
+Finding genes in sequence #51 (7659 bp)...done!
+Finding genes in sequence #52 (7162 bp)...done!
+Finding genes in sequence #53 (6160 bp)...done!
+Finding genes in sequence #54 (5547 bp)...done!
+Finding genes in sequence #55 (5337 bp)...done!
+Finding genes in sequence #56 (5002 bp)...done!
+Finding genes in sequence #57 (4643 bp)...done!
+Finding genes in sequence #58 (4390 bp)...done!
+Finding genes in sequence #59 (4280 bp)...done!
+Finding genes in sequence #60 (3956 bp)...done!
+Finding genes in sequence #61 (3951 bp)...done!
+Finding genes in sequence #62 (3740 bp)...done!
+Finding genes in sequence #63 (3483 bp)...done!
+Finding genes in sequence #64 (3469 bp)...done!
+Finding genes in sequence #65 (3390 bp)...done!
+Finding genes in sequence #66 (3314 bp)...done!
+Finding genes in sequence #67 (3174 bp)...done!
+Finding genes in sequence #68 (3002 bp)...done!
+Finding genes in sequence #69 (2883 bp)...done!
+Finding genes in sequence #70 (2876 bp)...done!
+Finding genes in sequence #71 (2534 bp)...done!
+Finding genes in sequence #72 (2344 bp)...done!
+Finding genes in sequence #73 (2301 bp)...done!
+Finding genes in sequence #74 (2137 bp)...done!
+Finding genes in sequence #75 (1908 bp)...done!
+Finding genes in sequence #76 (1885 bp)...done!
+Finding genes in sequence #77 (1764 bp)...done!
+Finding genes in sequence #78 (1563 bp)...done!
+Finding genes in sequence #79 (1455 bp)...done!
+Finding genes in sequence #80 (1439 bp)...done!
+Finding genes in sequence #81 (1216 bp)...done!
+Finding genes in sequence #82 (1211 bp)...done!
+Finding genes in sequence #83 (943 bp)...done!
+Finding genes in sequence #84 (908 bp)...done!
+Finding genes in sequence #85 (840 bp)...done!
+Finding genes in sequence #86 (828 bp)...done!
+Finding genes in sequence #87 (824 bp)...done!
+Finding genes in sequence #88 (694 bp)...done!
+Finding genes in sequence #89 (655 bp)...done!
+Finding genes in sequence #90 (654 bp)...done!
+Finding genes in sequence #91 (643 bp)...done!
+Finding genes in sequence #92 (622 bp)...done!
+Finding genes in sequence #93 (605 bp)...done!
+Finding genes in sequence #94 (587 bp)...done!
+Finding genes in sequence #95 (530 bp)...done!
+Finding genes in sequence #96 (520 bp)...done!
+Finding genes in sequence #97 (512 bp)...done!
+	Command being timed: "prodigal -i /home/hice1/sfang86/Documents/prodigal_eggnog//data/contigs/B1354959_S01_L001_contigs.fa -o /home/hice1/sfang86/Documents/prodigal_eggnog//results/prodigal/B1354959_S01_L001/B1354959_S01_L001_prodigal.gff -a /home/hice1/sfang86/Documents/prodigal_eggnog//results/prodigal/B1354959_S01_L001/predicted_proteins.fasta -d /home/hice1/sfang86/Documents/prodigal_eggnog//results/prodigal/B1354959_S01_L001/predicted_genes.fna -p meta -f gff"
+	User time (seconds): 17.34
+	System time (seconds): 0.01
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 46048
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8096
+	Voluntary context switches: 56
+	Involuntary context switches: 49
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 9096
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

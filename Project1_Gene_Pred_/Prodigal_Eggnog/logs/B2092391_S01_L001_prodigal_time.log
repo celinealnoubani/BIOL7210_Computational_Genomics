@@ -1,0 +1,123 @@
+-------------------------------------
+PRODIGAL v2.6.3 [February, 2016]         
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.     
+-------------------------------------
+Request:  Metagenomic, Phase:  Training
+Initializing training files...done!
+-------------------------------------
+Request:  Metagenomic, Phase:  Gene Finding
+Finding genes in sequence #1 (207842 bp)...done!
+Finding genes in sequence #2 (151385 bp)...done!
+Finding genes in sequence #3 (146727 bp)...done!
+Finding genes in sequence #4 (121408 bp)...done!
+Finding genes in sequence #5 (89125 bp)...done!
+Finding genes in sequence #6 (88263 bp)...done!
+Finding genes in sequence #7 (86725 bp)...done!
+Finding genes in sequence #8 (85365 bp)...done!
+Finding genes in sequence #9 (75274 bp)...done!
+Finding genes in sequence #10 (70935 bp)...done!
+Finding genes in sequence #11 (70166 bp)...done!
+Finding genes in sequence #12 (64078 bp)...done!
+Finding genes in sequence #13 (59269 bp)...done!
+Finding genes in sequence #14 (55691 bp)...done!
+Finding genes in sequence #15 (55031 bp)...done!
+Finding genes in sequence #16 (48799 bp)...done!
+Finding genes in sequence #17 (41180 bp)...done!
+Finding genes in sequence #18 (40642 bp)...done!
+Finding genes in sequence #19 (35510 bp)...done!
+Finding genes in sequence #20 (31695 bp)...done!
+Finding genes in sequence #21 (31637 bp)...done!
+Finding genes in sequence #22 (31114 bp)...done!
+Finding genes in sequence #23 (28167 bp)...done!
+Finding genes in sequence #24 (27316 bp)...done!
+Finding genes in sequence #25 (25233 bp)...done!
+Finding genes in sequence #26 (23332 bp)...done!
+Finding genes in sequence #27 (23104 bp)...done!
+Finding genes in sequence #28 (22865 bp)...done!
+Finding genes in sequence #29 (22712 bp)...done!
+Finding genes in sequence #30 (21541 bp)...done!
+Finding genes in sequence #31 (20969 bp)...done!
+Finding genes in sequence #32 (19008 bp)...done!
+Finding genes in sequence #33 (18710 bp)...done!
+Finding genes in sequence #34 (16897 bp)...done!
+Finding genes in sequence #35 (16312 bp)...done!
+Finding genes in sequence #36 (14604 bp)...done!
+Finding genes in sequence #37 (13771 bp)...done!
+Finding genes in sequence #38 (9356 bp)...done!
+Finding genes in sequence #39 (8624 bp)...done!
+Finding genes in sequence #40 (8086 bp)...done!
+Finding genes in sequence #41 (7659 bp)...done!
+Finding genes in sequence #42 (7162 bp)...done!
+Finding genes in sequence #43 (6827 bp)...done!
+Finding genes in sequence #44 (6160 bp)...done!
+Finding genes in sequence #45 (5515 bp)...done!
+Finding genes in sequence #46 (5458 bp)...done!
+Finding genes in sequence #47 (4390 bp)...done!
+Finding genes in sequence #48 (4280 bp)...done!
+Finding genes in sequence #49 (4246 bp)...done!
+Finding genes in sequence #50 (3929 bp)...done!
+Finding genes in sequence #51 (3807 bp)...done!
+Finding genes in sequence #52 (3795 bp)...done!
+Finding genes in sequence #53 (3655 bp)...done!
+Finding genes in sequence #54 (3483 bp)...done!
+Finding genes in sequence #55 (3351 bp)...done!
+Finding genes in sequence #56 (3173 bp)...done!
+Finding genes in sequence #57 (2898 bp)...done!
+Finding genes in sequence #58 (2883 bp)...done!
+Finding genes in sequence #59 (2882 bp)...done!
+Finding genes in sequence #60 (2618 bp)...done!
+Finding genes in sequence #61 (2301 bp)...done!
+Finding genes in sequence #62 (2103 bp)...done!
+Finding genes in sequence #63 (1906 bp)...done!
+Finding genes in sequence #64 (1764 bp)...done!
+Finding genes in sequence #65 (1569 bp)...done!
+Finding genes in sequence #66 (1563 bp)...done!
+Finding genes in sequence #67 (1439 bp)...done!
+Finding genes in sequence #68 (1296 bp)...done!
+Finding genes in sequence #69 (1220 bp)...done!
+Finding genes in sequence #70 (1021 bp)...done!
+Finding genes in sequence #71 (947 bp)...done!
+Finding genes in sequence #72 (938 bp)...done!
+Finding genes in sequence #73 (881 bp)...done!
+Finding genes in sequence #74 (840 bp)...done!
+Finding genes in sequence #75 (840 bp)...done!
+Finding genes in sequence #76 (824 bp)...done!
+Finding genes in sequence #77 (747 bp)...done!
+Finding genes in sequence #78 (666 bp)...done!
+Finding genes in sequence #79 (661 bp)...done!
+Finding genes in sequence #80 (654 bp)...done!
+Finding genes in sequence #81 (624 bp)...done!
+Finding genes in sequence #82 (622 bp)...done!
+Finding genes in sequence #83 (609 bp)...done!
+Finding genes in sequence #84 (594 bp)...done!
+Finding genes in sequence #85 (577 bp)...done!
+Finding genes in sequence #86 (572 bp)...done!
+Finding genes in sequence #87 (551 bp)...done!
+Finding genes in sequence #88 (532 bp)...done!
+Finding genes in sequence #89 (530 bp)...done!
+Finding genes in sequence #90 (522 bp)...done!
+Finding genes in sequence #91 (501 bp)...done!
+	Command being timed: "prodigal -i /home/hice1/sfang86/Documents/prodigal_eggnog//data/contigs/B2092391_S01_L001_contigs.fa -o /home/hice1/sfang86/Documents/prodigal_eggnog//results/prodigal/B2092391_S01_L001/B2092391_S01_L001_prodigal.gff -a /home/hice1/sfang86/Documents/prodigal_eggnog//results/prodigal/B2092391_S01_L001/predicted_proteins.fasta -d /home/hice1/sfang86/Documents/prodigal_eggnog//results/prodigal/B2092391_S01_L001/predicted_genes.fna -p meta -f gff"
+	User time (seconds): 18.01
+	System time (seconds): 0.01
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 46032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8096
+	Voluntary context switches: 87
+	Involuntary context switches: 48
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8736
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

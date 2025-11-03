@@ -1,0 +1,29 @@
+[1;32mFunctional annotation of hits...[0m
+[1;32mDecorating gff file /home/hice1/sfang86/Documents/B2_Final_gff_16/results/gemoma/B1183043_S01_L001/B1183043_S01_L001_GeMoMa.gff...[0m
+500 2.5655789375305176 194.89 q/s (% mem usage: 7.60, % mem avail: 92.43)
+1000 4.518178701400757 221.33 q/s (% mem usage: 7.60, % mem avail: 92.43)
+1500 6.372655153274536 235.38 q/s (% mem usage: 7.60, % mem avail: 92.43)
+1504 6.4341206550598145 233.75 q/s (% mem usage: 7.50, % mem avail: 92.50)
+	Command being timed: "emapper.py -i /home/hice1/sfang86/Documents/B2_Final_gff_16/results/gemoma/B1183043_S01_L001/B1183043_S01_L001_predicted_proteins_clean.faa --output B1183043_S01_L001 --output_dir /home/hice1/sfang86/Documents/B2_Final_gff_16/results/eggnog/B1183043_S01_L001 --data_dir /home/hice1/sfang86/scratch/eggnog_db --cpu 16 --tax_scope bacteria --go_evidence all --decorate_gff /home/hice1/sfang86/Documents/B2_Final_gff_16/results/gemoma/B1183043_S01_L001/B1183043_S01_L001_GeMoMa.gff --override"
+	User time (seconds): 1474.39
+	System time (seconds): 38.97
+	Percent of CPU this job got: 831%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:02.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3739460
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 221
+	Minor (reclaiming a frame) page faults: 653095
+	Voluntary context switches: 1796440
+	Involuntary context switches: 54717
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 238320
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
