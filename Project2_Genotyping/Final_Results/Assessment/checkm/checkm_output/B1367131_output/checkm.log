@@ -1,0 +1,24 @@
+[2025-03-25 17:37:21] INFO: CheckM v1.2.3
+[2025-03-25 17:37:21] INFO: checkm analyze --threads 16 -x fa Ng.markers /home/hice1/calnoubani3/Documents/B3_Final/checkm/asm/B1367131_S01_L001_contigs.fa /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B1367131_output
+[2025-03-25 17:37:21] INFO: CheckM data: /home/hice1/calnoubani3/Documents/B3_Final/checkm/db
+[2025-03-25 17:37:21] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2025-03-25 17:44:37] INFO: CheckM v1.2.3
+[2025-03-25 17:44:37] INFO: checkm analyze --threads 16 -x fa Ng.markers /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B1367131_output/bins_input /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B1367131_output
+[2025-03-25 17:44:37] INFO: CheckM data: /home/hice1/calnoubani3/Documents/B3_Final/checkm/db
+[2025-03-25 17:44:37] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2025-03-25 17:44:37] INFO: Identifying marker genes in 1 bins with 16 threads:
+[2025-03-25 17:44:56] INFO: Saving HMM info to file.
+[2025-03-25 17:44:56] INFO: { Current stage: 0:00:18.994 || Total: 0:00:18.994 }
+[2025-03-25 17:44:56] ERROR: Models must be parsed before identifying HMM hits.
+[2025-03-25 18:11:27] INFO: CheckM v1.2.3
+[2025-03-25 18:11:27] INFO: checkm analyze --threads 16 -x fa Ng.markers /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B1367131_output/bins_input /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B1367131_output
+[2025-03-25 18:11:27] INFO: CheckM data: /home/hice1/calnoubani3/Documents/B3_Final/checkm/db
+[2025-03-25 18:11:27] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2025-03-25 18:11:27] INFO: Identifying marker genes in 1 bins with 16 threads:
+[2025-03-25 18:12:19] INFO: Saving HMM info to file.
+[2025-03-25 18:12:19] INFO: { Current stage: 0:00:52.427 || Total: 0:00:52.427 }
+[2025-03-25 18:12:19] INFO: Parsing HMM hits to marker genes:
+[2025-03-25 18:12:19] INFO: Aligning marker genes with multiple hits in a single bin:
+[2025-03-25 18:12:21] INFO: { Current stage: 0:00:01.291 || Total: 0:00:53.719 }
+[2025-03-25 18:12:21] INFO: Calculating genome statistics for 1 bins with 16 threads:
+[2025-03-25 18:12:21] INFO: { Current stage: 0:00:00.230 || Total: 0:00:53.949 }

@@ -1,0 +1,3 @@
+Ref_file	Query_file	ANI	Align_fraction_ref	Align_fraction_query	Ref_name	Query_name
+GCF_000006845.1_ASM684v1_genomic.fna.gz	B1299860_S01_L001.fa	99.57	94.01	94.33	NC_002946.2 Neisseria gonorrhoeae FA 1090, complete sequence	contigs_1 OrigDefln=NODE_1_length_108646_cov_15.570481
+GCF_000006845.1_ASM684v1_genomic.fna.gz	B1838859_S01_L001.fa	99.55	94.69	94.76	NC_002946.2 Neisseria gonorrhoeae FA 1090, complete sequence	contigs_1 OrigDefln=NODE_1_length_207876_cov_14.367126

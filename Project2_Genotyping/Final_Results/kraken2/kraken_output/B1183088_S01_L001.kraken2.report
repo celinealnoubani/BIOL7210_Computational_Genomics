@@ -1,0 +1,12 @@
+100.00	84	0	R	1	root
+100.00	84	0	R1	131567	  cellular organisms
+100.00	84	0	D	2	    Bacteria
+100.00	84	0	K	3379134	      Pseudomonadati
+100.00	84	0	P	1224	        Pseudomonadota
+100.00	84	0	C	28216	          Betaproteobacteria
+100.00	84	0	O	206351	            Neisseriales
+100.00	84	0	F	481	              Neisseriaceae
+100.00	84	0	G	482	                Neisseria
+100.00	84	81	S	485	                  Neisseria gonorrhoeae
+  2.38	2	2	S1	528354	                    Neisseria gonorrhoeae MS11
+  1.19	1	1	S1	1247414	                    Neisseria gonorrhoeae NG-k51.05

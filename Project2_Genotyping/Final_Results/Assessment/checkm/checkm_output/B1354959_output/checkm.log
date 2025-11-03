@@ -1,0 +1,21 @@
+[2025-03-25 17:37:17] INFO: CheckM v1.2.3
+[2025-03-25 17:37:17] INFO: checkm analyze --threads 16 -x fa Ng.markers /home/hice1/calnoubani3/Documents/B3_Final/checkm/asm/B1354959_S01_L001_contigs.fa /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B1354959_output
+[2025-03-25 17:37:17] INFO: CheckM data: /home/hice1/calnoubani3/Documents/B3_Final/checkm/db
+[2025-03-25 17:37:17] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2025-03-25 17:44:15] INFO: CheckM v1.2.3
+[2025-03-25 17:44:15] INFO: checkm analyze --threads 16 -x fa Ng.markers /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B1354959_output/bins_input /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B1354959_output
+[2025-03-25 17:44:15] INFO: CheckM data: /home/hice1/calnoubani3/Documents/B3_Final/checkm/db
+[2025-03-25 17:44:15] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2025-03-25 17:44:15] INFO: Identifying marker genes in 1 bins with 16 threads:
+[2025-03-25 18:08:39] INFO: CheckM v1.2.3
+[2025-03-25 18:08:39] INFO: checkm analyze --threads 16 -x fa Ng.markers /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B1354959_output/bins_input /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B1354959_output
+[2025-03-25 18:08:39] INFO: CheckM data: /home/hice1/calnoubani3/Documents/B3_Final/checkm/db
+[2025-03-25 18:08:39] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2025-03-25 18:08:39] INFO: Identifying marker genes in 1 bins with 16 threads:
+[2025-03-25 18:09:31] INFO: Saving HMM info to file.
+[2025-03-25 18:09:31] INFO: { Current stage: 0:00:51.661 || Total: 0:00:51.661 }
+[2025-03-25 18:09:31] INFO: Parsing HMM hits to marker genes:
+[2025-03-25 18:09:31] INFO: Aligning marker genes with multiple hits in a single bin:
+[2025-03-25 18:09:31] INFO: { Current stage: 0:00:00.191 || Total: 0:00:51.852 }
+[2025-03-25 18:09:31] INFO: Calculating genome statistics for 1 bins with 16 threads:
+[2025-03-25 18:09:31] INFO: { Current stage: 0:00:00.067 || Total: 0:00:51.920 }

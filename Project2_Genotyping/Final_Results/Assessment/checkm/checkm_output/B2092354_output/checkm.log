@@ -1,0 +1,28 @@
+[2025-03-25 17:37:27] INFO: CheckM v1.2.3
+[2025-03-25 17:37:27] INFO: checkm analyze --threads 16 -x fa Ng.markers /home/hice1/calnoubani3/Documents/B3_Final/checkm/asm/B2092354_S01_L001_contigs.fa /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B2092354_output
+[2025-03-25 17:37:27] INFO: CheckM data: /home/hice1/calnoubani3/Documents/B3_Final/checkm/db
+[2025-03-25 17:37:27] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2025-03-25 17:47:32] INFO: CheckM v1.2.3
+[2025-03-25 17:47:32] INFO: checkm analyze --threads 16 -x fa Ng.markers /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B2092354_output/bins_input /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B2092354_output
+[2025-03-25 17:47:32] INFO: CheckM data: /home/hice1/calnoubani3/Documents/B3_Final/checkm/db
+[2025-03-25 17:47:32] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2025-03-25 17:47:32] INFO: Identifying marker genes in 1 bins with 16 threads:
+[2025-03-25 17:48:28] INFO: Saving HMM info to file.
+[2025-03-25 17:48:28] INFO: { Current stage: 0:00:56.171 || Total: 0:00:56.171 }
+[2025-03-25 17:48:28] INFO: Parsing HMM hits to marker genes:
+[2025-03-25 17:48:28] INFO: Aligning marker genes with multiple hits in a single bin:
+[2025-03-25 17:48:28] INFO: { Current stage: 0:00:00.266 || Total: 0:00:56.437 }
+[2025-03-25 17:48:28] INFO: Calculating genome statistics for 1 bins with 16 threads:
+[2025-03-25 17:48:28] INFO: { Current stage: 0:00:00.075 || Total: 0:00:56.513 }
+[2025-03-25 18:15:28] INFO: CheckM v1.2.3
+[2025-03-25 18:15:28] INFO: checkm analyze --threads 16 -x fa Ng.markers /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B2092354_output/bins_input /home/hice1/calnoubani3/Documents/B3_Final/checkm/checkm_output/B2092354_output
+[2025-03-25 18:15:28] INFO: CheckM data: /home/hice1/calnoubani3/Documents/B3_Final/checkm/db
+[2025-03-25 18:15:28] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2025-03-25 18:15:28] INFO: Identifying marker genes in 1 bins with 16 threads:
+[2025-03-25 18:16:19] INFO: Saving HMM info to file.
+[2025-03-25 18:16:19] INFO: { Current stage: 0:00:51.090 || Total: 0:00:51.090 }
+[2025-03-25 18:16:19] INFO: Parsing HMM hits to marker genes:
+[2025-03-25 18:16:19] INFO: Aligning marker genes with multiple hits in a single bin:
+[2025-03-25 18:16:19] INFO: { Current stage: 0:00:00.187 || Total: 0:00:51.277 }
+[2025-03-25 18:16:19] INFO: Calculating genome statistics for 1 bins with 16 threads:
+[2025-03-25 18:16:19] INFO: { Current stage: 0:00:00.060 || Total: 0:00:51.338 }

@@ -1,0 +1,22 @@
+[00:00:00.000] (208f60840) INFO   skani dist -q B1299860_S01_L001.fa B1838859_S01_L001.fa -r GCF_000006845.1_ASM684v1_genomic.fna.gz -o ../skani/result.tsv
+[00:00:00.015] (208f60840) INFO   Learned ANI mode detected. ANI may be adjusted according to a regression model trained on MAGs.
+[00:00:00.015] (208f60840) INFO   Generating sketch time: 0.014979208
+[00:00:00.017] (208f60840) INFO   ANI calculation time: 0.002481792
+        0.02 real         0.02 user         0.00 sys
+            19644416  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1552  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  16  voluntary context switches
+                  41  involuntary context switches
+           412970325  instructions retired
+           105731604  cycles elapsed
+            11174248  peak memory footprint

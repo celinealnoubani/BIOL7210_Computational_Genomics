@@ -1,0 +1,12 @@
+[2025-02-27 21:25:42] INFO: CheckM v1.2.3
+[2025-02-27 21:25:42] INFO: checkm analyze --threads 8 -x fa Ng.markers /storage/home/hhive1/calnoubani3/data/checkm/asm/small/ analyze_small_output
+[2025-02-27 21:25:42] INFO: CheckM data: /storage/home/hhive1/calnoubani3/data/checkm/db
+[2025-02-27 21:25:42] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2025-02-27 21:25:42] INFO: Identifying marker genes in 1 bins with 8 threads:
+[2025-02-27 21:28:50] INFO: Saving HMM info to file.
+[2025-02-27 21:28:50] INFO: { Current stage: 0:03:07.986 || Total: 0:03:07.986 }
+[2025-02-27 21:28:50] INFO: Parsing HMM hits to marker genes:
+[2025-02-27 21:28:50] INFO: Aligning marker genes with multiple hits in a single bin:
+[2025-02-27 21:28:51] INFO: { Current stage: 0:00:00.598 || Total: 0:03:08.585 }
+[2025-02-27 21:28:51] INFO: Calculating genome statistics for 1 bins with 8 threads:
+[2025-02-27 21:28:51] INFO: { Current stage: 0:00:00.209 || Total: 0:03:08.795 }

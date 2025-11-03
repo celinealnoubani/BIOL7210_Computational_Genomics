@@ -1,0 +1,2 @@
+Query	Reference	%ANI	Num_Fragments_Mapped	Total_Query_Fragments	%Query_Aligned	Basepairs_Query_Aligned
+./B1299860/B1299860_problem.fna	./ASM684v1_reference.fna	99.5571	632	661	95.6127	1896000

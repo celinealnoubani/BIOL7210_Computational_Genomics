@@ -1,0 +1,21 @@
+>>>>>>>>>>>>>>>>>>
+Reference = [./ASM684v1_reference.fna]
+Query = [./Final_Contigs/B1181507_S01_L001_contigs.fa]
+Kmer size = 16
+Fragment length = 3000
+Threads = 1
+ANI output file = ./Fastani/FastANI1_B1181507.tsv
+Sanity Check  = 0
+>>>>>>>>>>>>>>>>>>
+INFO [thread 0], skch::main, Count of threads executing parallel_for : 1
+INFO [thread 0], skch::Sketch::build, window size for minimizer sampling  = 24
+INFO [thread 0], skch::Sketch::build, minimizers picked from reference = 172496
+INFO [thread 0], skch::Sketch::index, unique minimizers = 160250
+INFO [thread 0], skch::Sketch::computeFreqHist, Frequency histogram of minimizers = (1, 154903) ... (89, 1)
+INFO [thread 0], skch::Sketch::computeFreqHist, consider all minimizers during lookup.
+INFO [thread 0], skch::main, Time spent sketching the reference : 0.248908 sec
+INFO [thread 0], skch::main, Start Map 1
+INFO [thread 0], skch::main, Time spent mapping fragments in query #1 : 2.31397 sec
+INFO [thread 0], skch::main, Time spent post mapping : 0.000755292 sec
+INFO [thread 0], skch::main, ready to exit the loop
+INFO, skch::main, parallel_for execution finished
