@@ -194,7 +194,4 @@ BIOL7210_Computational_Genomics/
 
 ---
 
-## Contact
 
-Celine Alnoubani
-Georgia Institute of Technology
